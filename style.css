@@ -190,3 +190,26 @@ footer h3 {
     font-size: 2rem;
     color: var(--yellow);
 }
+
+@media (max-width: 778px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav {
+        display: none;
+    }
+    .hero > * {
+        margin-bottom: -100px;
+    }
+
+    .trailing {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
