@@ -200,13 +200,14 @@ footer h3 {
         align-items: center;
     }
     header {
-        margin: 30px 30px
+        margin: 30px 20px;
     }
     nav {
         display: none;
     }
     .hero > * {
         margin-bottom: -100px;
+        margin-left: 0;
     }
 
     .trailing {
