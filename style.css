@@ -1,0 +1,192 @@
+:root {
+    --dark-green: rgb(9, 28, 26);
+    --light-green: rgb(50, 67, 67);
+    --black: rgb(26, 28, 26);
+    --yellow: rgb(237, 187, 89)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    border: 50px solid var(--dark-green);
+    background-color: var(--light-green);
+    min-height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    margin: 30px 70px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, .1);
+    font-size: .7rem;
+    border-radius: 200px;
+}
+
+header h2 {
+    font-family: 'Yeseva One', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+}
+
+nav a {
+    margin: 0 20px;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin: -20px;
+}
+
+.counter {
+    display: grid;
+    place-content: center;
+    margin-left: 15px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    background-color: var(--yellow);
+    border-radius: 50%;
+}
+
+.counter span {
+    color: var(--black);
+    font-family: 'Yeseva One', Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.hero > * {
+    margin-left: -20px;
+    width: 270px;
+    height: 400px;
+    border-radius: 200px;
+    background-color: var(--dark-green);
+}
+
+.leading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.leading .star {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.leading h3 {
+    font-size: 3.5rem;
+    font-family: 'Yeseva One', Georgia, 'Times New Roman', Times, serif;
+}
+
+.leading h4 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Yeseva One', Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    margin-top: 40px;
+    font-size: .7rem;
+    font-weight: bold;
+    color: black;
+    background-color: var(--yellow);
+    padding: 20px 30px;
+    border-radius: 100px;
+}
+
+.middle {
+    background-image: url(HD-wallpaper-blue-liquid-metal-abstract-design-light-blue-silk.jpeg);
+    display: grid;
+    place-items: center;
+}
+
+.diamond {
+    width: 80px;
+    height: 80px;
+    background: var(--dark-green);
+    rotate: 45deg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ampersand {
+     font-family: 'Yeseva One', Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3rem;
+    rotate: -45deg;
+}
+
+.trailing {
+    display: flex;
+    justify-content: end;
+    font-size: 2rem;
+    background-image: url(rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg);
+    background-size: cover;
+    box-shadow: 0.25px 1px rgba(255, 255, 255, .2);
+}
+
+.trailing h3 {
+    margin-right: 25px;
+    font-family: 'Yeseva One', Georgia, 'Times New Roman', Times, serif;
+}
+
+.trailing h3:first-child {
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    margin: 70px;
+}
+
+footer p {
+    margin: 0 50px;
+    font-size: .7rem;
+}
+
+footer h3 {
+    min-width: 200px;
+    font-family: 'Yeseva One', Georgia, 'Times New Roman', Times, serif;
+}
+
+.people {
+    display: flex;
+    align-items: center;
+}
+
+
+.people .photos {
+    display: flex;
+    margin-right: 25px;
+}
+
+.people .photos img {
+    margin-left: -10px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.arrow {
+    font-size: 2rem;
+    color: var(--yellow);
+}
