@@ -192,9 +192,15 @@ footer h3 {
 }
 
 @media (max-width: 778px) {
+    body {
+        border-width: 10px;
+    }
     .hero {
         flex-direction: column;
         align-items: center;
+    }
+    header {
+        margin: 30px 30px
     }
     nav {
         display: none;
@@ -211,5 +217,10 @@ footer h3 {
         flex-direction: column;
         gap: 20px;
         align-items: center;
+        text-align: center;
+        margin: 20px;
+    }
+    footer p {
+        margin: 0;
     }
 }
