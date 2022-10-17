@@ -76,6 +76,10 @@ nav a {
     background-color: var(--dark-green);
 }
 
+.hero:first-child {
+    margin-left: 35px
+}
+
 .leading {
     display: flex;
     flex-direction: column;
